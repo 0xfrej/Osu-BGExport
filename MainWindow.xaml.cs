@@ -33,7 +33,6 @@ namespace Osu_BGExport
             Source.IsReadOnly = true;
             Destination.IsReadOnly = true;
             Source.Text = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\osu!\Songs";
-            Destination.Text = @"F:\test";
             this.SourceSelectButton_Click(Source, EventArgs.Empty);
         }
 
